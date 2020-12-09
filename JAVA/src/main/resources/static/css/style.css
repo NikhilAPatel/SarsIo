@@ -1,0 +1,157 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../img/menuBkg.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+canvas {
+  display: block;
+}
+
+.action-button{
+    padding: 5px 15px;
+    position: relative;
+    align-self: center;
+
+    background: #49C59F;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Arial', sans-serif;
+}
+
+.text-input input[type=text],input[type=password] {
+    padding: 10px 15px;
+    margin: 0px 0;
+
+    background: rgba(168, 168, 168, 0.20);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    font-family: 'Lato', sans-serif;
+}
+
+.body {
+  overflow-anchor: none;
+}
+
+.basic-form {
+    margin: 5px 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: left;
+}
+
+.basic-form.left-align {
+    align-items: flex-start;
+}
+
+.basic-form input[type=text],input[type=password] {
+    padding: 10px 15px;
+    margin: 0px 0;
+
+    background: rgba(168, 168, 168, 0.20);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    font-family: 'Lato', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.basic-form input[type=number] {
+    padding: 10px 10px;
+    margin: 10px 0;
+
+    background: rgba(168, 168, 168, 0.20);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    background-color: #FFFFFF;
+
+}
+
+.basic-form input[type=submit] {
+    padding: 10px 15px;
+    margin: 10px 0;
+    position: relative;
+    align-self: center;
+
+    background: #49C59F;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+.gameForm {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.box {
+    padding: 10px 15px;
+    margin: 10px 0;
+    width: 400px;
+    height: 95px;
+    position: relative;
+    align-self: flex-end;
+
+    background: rgba(168, 168, 168, 0.20);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    font-family: 'Lato', sans-serif;
+}
+
+label {
+    color: #000000;
+    font-weight: bold;
+    width: 150px;
+    font-family: 'Lato', sans-serif;
+}
+
+#custom-disease {
+  display:none;
+}
+
+.centerImage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    height: 400px;
+    margin-top: -200px; /* Half the height */
+    margin-left: -350px; /* Half the width */
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+}
+
+th, td {
+  padding: 3px;
+}
